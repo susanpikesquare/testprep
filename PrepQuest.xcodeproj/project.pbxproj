@@ -24,6 +24,7 @@
 		A10000000000000000000116 /* RewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000218 /* RewardsView.swift */; };
 		A10000000000000000000117 /* AdventureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000219 /* AdventureView.swift */; };
 		A10000000000000000000118 /* NativeNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000220 /* NativeNotificationManager.swift */; };
+		A10000000000000000000119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000208 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -256,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10000000000000000000119 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +409,8 @@
 		A10000000000000000000603 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
@@ -432,6 +436,8 @@
 		A10000000000000000000604 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
