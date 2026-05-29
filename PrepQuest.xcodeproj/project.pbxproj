@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000101 /* PrepQuestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000201 /* PrepQuestApp.swift */; };
+		A10000000000000000000102 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000202 /* RootView.swift */; };
+		A10000000000000000000103 /* LearnerProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000203 /* LearnerProgress.swift */; };
+		A10000000000000000000104 /* PracticeQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000204 /* PracticeQuestion.swift */; };
+		A10000000000000000000105 /* SampleQuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000205 /* SampleQuestionBank.swift */; };
+		A10000000000000000000106 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000206 /* TodayView.swift */; };
+		A10000000000000000000107 /* PracticeSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000207 /* PracticeSessionView.swift */; };
+		A10000000000000000000109 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000211 /* AppTheme.swift */; };
+		A10000000000000000000110 /* PracticeMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000212 /* PracticeMenuView.swift */; };
+		A10000000000000000000111 /* SkillMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000213 /* SkillMapView.swift */; };
+		A10000000000000000000112 /* WinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000214 /* WinsView.swift */; };
+		A10000000000000000000113 /* AssessmentScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000215 /* AssessmentScore.swift */; };
+		A10000000000000000000114 /* NickBaselineScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000216 /* NickBaselineScores.swift */; };
+		A10000000000000000000115 /* RewardFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000217 /* RewardFeedback.swift */; };
+		A10000000000000000000116 /* RewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000218 /* RewardsView.swift */; };
+		A10000000000000000000117 /* AdventureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000219 /* AdventureView.swift */; };
+		A10000000000000000000118 /* NativeNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000220 /* NativeNotificationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10000000000000000000201 /* PrepQuestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepQuestApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000202 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A10000000000000000000203 /* LearnerProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerProgress.swift; sourceTree = "<group>"; };
+		A10000000000000000000204 /* PracticeQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeQuestion.swift; sourceTree = "<group>"; };
+		A10000000000000000000205 /* SampleQuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleQuestionBank.swift; sourceTree = "<group>"; };
+		A10000000000000000000206 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		A10000000000000000000207 /* PracticeSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeSessionView.swift; sourceTree = "<group>"; };
+		A10000000000000000000208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10000000000000000000209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000210 /* PrepQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrepQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000211 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		A10000000000000000000212 /* PracticeMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeMenuView.swift; sourceTree = "<group>"; };
+		A10000000000000000000213 /* SkillMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillMapView.swift; sourceTree = "<group>"; };
+		A10000000000000000000214 /* WinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinsView.swift; sourceTree = "<group>"; };
+		A10000000000000000000215 /* AssessmentScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentScore.swift; sourceTree = "<group>"; };
+		A10000000000000000000216 /* NickBaselineScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NickBaselineScores.swift; sourceTree = "<group>"; };
+		A10000000000000000000217 /* RewardFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardFeedback.swift; sourceTree = "<group>"; };
+		A10000000000000000000218 /* RewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsView.swift; sourceTree = "<group>"; };
+		A10000000000000000000219 /* AdventureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureView.swift; sourceTree = "<group>"; };
+		A10000000000000000000220 /* NativeNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeNotificationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000000000000000000301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000401 = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000402 /* PrepQuest */,
+				A10000000000000000000408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000402 /* PrepQuest */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000403 /* App */,
+				A10000000000000000000404 /* Models */,
+				A10000000000000000000405 /* Data */,
+				A10000000000000000000406 /* Features */,
+				A10000000000000000000411 /* Support */,
+				A10000000000000000000407 /* Resources */,
+			);
+			path = PrepQuest;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000403 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000201 /* PrepQuestApp.swift */,
+				A10000000000000000000202 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000404 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000203 /* LearnerProgress.swift */,
+				A10000000000000000000204 /* PracticeQuestion.swift */,
+				A10000000000000000000215 /* AssessmentScore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000405 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000205 /* SampleQuestionBank.swift */,
+				A10000000000000000000216 /* NickBaselineScores.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000406 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000415 /* Adventure */,
+				A10000000000000000000409 /* Today */,
+				A10000000000000000000410 /* Practice */,
+				A10000000000000000000412 /* Skills */,
+				A10000000000000000000413 /* Wins */,
+				A10000000000000000000414 /* Rewards */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000407 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000208 /* Assets.xcassets */,
+				A10000000000000000000209 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000210 /* PrepQuest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000409 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000206 /* TodayView.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000410 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000207 /* PracticeSessionView.swift */,
+				A10000000000000000000212 /* PracticeMenuView.swift */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000411 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000211 /* AppTheme.swift */,
+				A10000000000000000000217 /* RewardFeedback.swift */,
+				A10000000000000000000220 /* NativeNotificationManager.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000412 /* Skills */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000213 /* SkillMapView.swift */,
+			);
+			path = Skills;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000413 /* Wins */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000214 /* WinsView.swift */,
+			);
+			path = Wins;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000414 /* Rewards */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000218 /* RewardsView.swift */,
+			);
+			path = Rewards;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000415 /* Adventure */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000219 /* AdventureView.swift */,
+			);
+			path = Adventure;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000000000000000000001 /* PrepQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000702 /* Build configuration list for PBXNativeTarget "PrepQuest" */;
+			buildPhases = (
+				A10000000000000000000302 /* Sources */,
+				A10000000000000000000301 /* Frameworks */,
+				A10000000000000000000303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrepQuest;
+			productName = PrepQuest;
+			productReference = A10000000000000000000210 /* PrepQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A10000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A10000000000000000000701 /* Build configuration list for PBXProject "PrepQuest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10000000000000000000401;
+			productRefGroup = A10000000000000000000408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000000000000000000001 /* PrepQuest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000000000000000000303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000101 /* PrepQuestApp.swift in Sources */,
+				A10000000000000000000102 /* RootView.swift in Sources */,
+				A10000000000000000000103 /* LearnerProgress.swift in Sources */,
+				A10000000000000000000104 /* PracticeQuestion.swift in Sources */,
+				A10000000000000000000105 /* SampleQuestionBank.swift in Sources */,
+				A10000000000000000000106 /* TodayView.swift in Sources */,
+				A10000000000000000000107 /* PracticeSessionView.swift in Sources */,
+				A10000000000000000000109 /* AppTheme.swift in Sources */,
+				A10000000000000000000110 /* PracticeMenuView.swift in Sources */,
+				A10000000000000000000111 /* SkillMapView.swift in Sources */,
+				A10000000000000000000112 /* WinsView.swift in Sources */,
+				A10000000000000000000113 /* AssessmentScore.swift in Sources */,
+				A10000000000000000000114 /* NickBaselineScores.swift in Sources */,
+				A10000000000000000000115 /* RewardFeedback.swift in Sources */,
+				A10000000000000000000116 /* RewardsView.swift in Sources */,
+				A10000000000000000000117 /* AdventureView.swift in Sources */,
+				A10000000000000000000118 /* NativeNotificationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10000000000000000000601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10000000000000000000602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A10000000000000000000603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PrepQuest/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.susanbamberger.prepquest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A10000000000000000000604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PrepQuest/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.susanbamberger.prepquest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000000000000000000701 /* Build configuration list for PBXProject "PrepQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000601 /* Debug */,
+				A10000000000000000000602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000702 /* Build configuration list for PBXNativeTarget "PrepQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000603 /* Debug */,
+				A10000000000000000000604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000000000000000000002 /* Project object */;
+}
